@@ -33,11 +33,24 @@ color: #E80C7A;
 }
 
 .header {
-	padding:500px 200px;
-background-image: url("../images/sunset.jpeg");
+	padding:350px 200px;
+background-image: url("../images/style1.jpg");
 background-size:cover; /*allows the image to not repeat and fill scree*/n
 background-position: center; 
 color:#ffffcc;
 text-align: center;
-background-size: 60px, 
+
+}
+.main-content {
+	background-color: #fff;
+	padding: 40px;
+	margin: 25px;
+
+}
+
+.img-50 {
+width:50%;
+display: block;
+margin:10px auto; /*puts automatic margins on the left and right hand side of elements*/
+
 }
