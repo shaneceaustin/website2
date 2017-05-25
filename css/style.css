@@ -1,8 +1,24 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Lobster');
+
+
 *{
 	box-sizing:border-box;
 
-	}body {
+	}
+body {
 background-color: #ffb366;
+font-family: 'Libre Baskerville', serif;
+
+
+}
+
+h2 {
+	background-color: pink;
+	margin:10px 0;  
+	padding: 10px;
+	color: #FF530D
+	font-family: 'Lobster', cursive;
+	
 }
 
 nav ul{
@@ -18,6 +34,7 @@ nav li{
 	text-align: center;
 	width:33.33% ; /*The distance between the nav tabs */
 	/*border: 2px solid teal*/;
+
  }
 
 nav a {
@@ -52,5 +69,13 @@ text-align: center;
 width:50%;
 display: block;
 margin:10px auto; /*puts automatic margins on the left and right hand side of elements*/
+
+}
+
+/*These are Utility Classes*/
+/*_______________________________________________________________________________________*/
+
+.center-text {
+	text-align: center;
 
 }
