@@ -1,0 +1,43 @@
+*{
+	box-sizing:border-box;
+
+	}body {
+background-color: #ffb366;
+}
+
+nav ul{
+	padding:20px;
+	overflow: auto; /*make it account for its floating children*/
+	background-color:pink;
+    list-style: none; /*this takes th ebullet points off the list in a */
+
+}
+
+nav li{
+	float: left; 
+	text-align: center;
+	width:33.33% ; /*The distance between the nav tabs */
+	/*border: 2px solid teal*/;
+ }
+
+nav a {
+color: #FF530D;
+text-decoration: none; /*gets rid of underline in nav*/
+font-size: 20px; /*changes size in nav*/
+transition: .5s; /*determines how long it will take for the hover cover to appear*/
+}
+
+nav a:hover  {
+color: #E80C7A;
+
+}
+
+.header {
+	padding:500px 200px;
+background-image: url("../images/sunset.jpeg");
+background-size:cover; /*allows the image to not repeat and fill scree*/n
+background-position: center; 
+color:#ffffcc;
+text-align: center;
+background-size: 60px, 
+}
