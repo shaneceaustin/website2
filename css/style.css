@@ -71,7 +71,7 @@ display: block;
 margin:10px auto; /*puts automatic margins on the left and right hand side of elements*/
 
 }
-
+	label {display:block;}
 /*These are Utility Classes*/
 /*_______________________________________________________________________________________*/
 
