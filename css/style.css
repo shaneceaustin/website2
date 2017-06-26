@@ -52,7 +52,7 @@ color: #E80C7A;
 .header {
 	padding:350px 200px;
 background-image: url("../images/style1.jpg");
-background-size:cover; /*allows the image to not repeat and fill scree*/n
+background-size:cover; /*allows the image to not repeat and fill screen*/
 background-position: center; 
 color:#ffffcc;
 text-align: center;
